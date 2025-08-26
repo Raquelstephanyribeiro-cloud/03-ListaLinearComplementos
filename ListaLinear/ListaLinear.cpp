@@ -135,7 +135,7 @@ void excluirElemento()
 
 
 	nElementos--;
-	cout << "A - PA - GA - DO" << endl;
+	cout << " Elemento apagado com sucesso!" << endl;
 
 
 
