@@ -90,6 +90,7 @@ void exibirElementos()
 		cout << "Elementos: \n";
 		for (int n = 0; n < nElementos; n++) {
 			cout << lista[n] << endl;
+
 		}
 	}
 }
@@ -122,6 +123,20 @@ void inserirElemento()
 
 void excluirElemento()
 {
+	int numeroExcluir;
+	cout << "Qual numero deseja excluir??";
+	cin >> numeroExcluir;
+	int numPos = posicaoElemento(numeroExcluir);
+
+	for (int i = numPos; i < nElementos; i++) {
+		lista[i] = lista[i + 1];
+
+	}
+
+
+	nElementos--;
+	cout << "A - PA - GA - DO" << endl;
+
 
 
 }
