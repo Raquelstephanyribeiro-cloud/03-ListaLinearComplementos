@@ -135,7 +135,7 @@ void excluirElemento()
 
 
 	nElementos--;
-	cout << " Elemento apagado com sucesso" << endl;
+	cout << " Elemento apagado com sucesso!" << endl;
 
 
 
